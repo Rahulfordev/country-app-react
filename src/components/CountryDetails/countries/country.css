@@ -81,6 +81,16 @@ h1 {
   margin-block-start: 0;
 }
 
+input[type="text"] {
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid red;
+}
+
 @media screen and (max-width: 900px) {
   .countries {
     grid-template-columns: repeat(2, 1fr);
